@@ -17,3 +17,11 @@ Class Weighting: Tested class_weight='balanced' in Random Forest to prioritize m
 Alternative Models: Explored gradient boosting methods like XGBoost and LightGBM as potential improvements over the baseline.
 
 Insights: Found that neither oversampling nor class weighting significantly improved performance over the baseline Random Forest on our dataset, indicating the model generalises well even with class imbalance in our specific dataset.
+
+Potential Extensions:
+
+Threshold tuning for optimising PR-AUC/F1.
+
+Testing additional ensemble or neural network models.
+
+Application to real-world imbalanced datasets in finance, healthcare, or fraud detection.
