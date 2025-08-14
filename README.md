@@ -6,22 +6,16 @@ This repository contains an exploration of handling class imbalance in classific
 
 ### Key Features & Techniques:
 
-Oversampling Approaches: Implemented SMOTE, ADASYN, and SMOTE + ENN to generate synthetic minority class samples.
-
-Pipeline Integration: Integrated oversampling methods within sklearn pipelines for seamless cross-validation.
-
-Evaluation Metrics: Assessed models using PR-AUC and F1 score with Stratified K-Fold cross-validation to ensure robust evaluation on imbalanced data.
-
-Class Weighting: Tested class_weight='balanced' in Random Forest to prioritize minority class without altering the data.
-
-Alternative Models: Explored gradient boosting methods like XGBoost and LightGBM as potential improvements over the baseline.
+- Oversampling Approaches: Implemented SMOTE, ADASYN, and SMOTE + ENN to generate synthetic minority class samples.
+- Pipeline Integration: Integrated oversampling methods within sklearn pipelines for seamless cross-validation.
+- Evaluation Metrics: Assessed models using PR-AUC and F1 score with Stratified K-Fold cross-validation to ensure robust evaluation on imbalanced data.
+- Class Weighting: Tested class_weight='balanced' in Random Forest to prioritize minority class without altering the data.
+- Alternative Models: Explored gradient boosting methods like XGBoost and LightGBM as potential improvements over the baseline.
 
 Insights: Found that neither oversampling nor class weighting significantly improved performance over the baseline Random Forest on our dataset, indicating the model generalises well even with class imbalance in our specific dataset.
 
-Potential Extensions:
+### Potential Extensions:
 
-Threshold tuning for optimising PR-AUC/F1.
-
-Testing additional ensemble or neural network models.
-
-Application to real-world imbalanced datasets in finance, healthcare, or fraud detection.
+- Threshold tuning for optimising PR-AUC/F1.
+- Testing additional ensemble or neural network models.
+- Application to real-world imbalanced datasets in finance, healthcare, or fraud detection.
