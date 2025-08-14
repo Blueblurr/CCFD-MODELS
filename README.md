@@ -1,11 +1,10 @@
-# CCFD-MODELS
 
-Project Title: Imbalanced Classification Analysis and Oversampling Techniques
+#Imbalanced Classification Analysis and Oversampling Techniques
 
-Description:
+###Description:
 This repository contains an exploration of handling class imbalance in classification tasks using a combination of oversampling techniques, hybrid methods, and model evaluation strategies. The goal was to determine whether synthetic data generation or class weighting improves model performance, using a Random Forest classifier as the baseline.
 
-Key Features & Techniques:
+###Key Features & Techniques:
 
 Oversampling Approaches: Implemented SMOTE, ADASYN, and SMOTE + ENN to generate synthetic minority class samples.
 
